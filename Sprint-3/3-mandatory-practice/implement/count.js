@@ -5,7 +5,7 @@
 */
 
 function countChar(stringOfCharacters, findCharacter) {
-    return stringOfCharacters.split(findCharacter).length - 1;
+    return stringOfCharacters.split(findCharacter).length - 1; // will need more explaining of this part :D 
 }
 
 console.log(countChar("hello world", "l")); 
